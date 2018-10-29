@@ -37,6 +37,12 @@ body {
     cursor: pointer;
 }
 
+.text {
+    font-size: 28px;
+    text-align: justify;
+    min-width: 220px;
+}
+
 .form {
     display: flex;
     flex-direction: column;
@@ -44,7 +50,7 @@ body {
 
 .facebook {
     border-width: inherit;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     color: #1d00ffc9;
     cursor: pointer;
@@ -57,8 +63,8 @@ body {
 .text_or{
     text-align: center;
     margin: 0px;
-    font-size: 40px;
-    margin-bottom: 15px;
+    font-size: 30px;
+    align-items: center;
 }
 
 body i {
@@ -116,10 +122,4 @@ label {
     padding-top: 10px;
 }
 
-.text {
-    margin: 50px;
-    font-size: 30px;
-    text-align: justify;
-    min-width: 220px;
-}
 
